@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"  style="background: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif) no-repeat center center fixed; background-size: cover">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSnades</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/JakeFanelli/CSGO-Nades/master/media/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+  <div id="barba-wrapper">
+    <div class="barba-container">
+    <div class="navbar">
+    <a id="btn-home" href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="submit.html" style="float: right">Submit your own</a>
+    <div class="dropdown">
+      <button class="dropbtn">Maps 
+        <i class="fa fa-caret-down" ></i>
+      </button>
+      <div class="dropdown-content">
+        <a id="dust2" href="dust2.html" class="icoDust2">Dust 2</a>
+        <a id="mirage" href="mirage.html" class="icoMirage">Mirage</a>
+        <a id="cache" href="cache.html" class="icoCache">Cache</a>
+        <a id="inferno" href="inferno.html" class="icoInfer">Inferno</a>
+        <a id="overpass" href="overpass.html" class="icoOver">Overpass</a>
+        <a id="train" href="train.html" class="icoTrain">Train</a>
+        <a id="nuke" href="nuke.html" class="icoNuke">Nuke</a>
+        <a id="vertigo" href="vertigo.html" class="icoVertigo">Vertigo</a>
+      </div>
+    </div> 
+  </div>
+
+  <div id="container">           
+    <h1 style="color: white; font-size: 52px;">Welcome to our site. Let's get you set up first!</h1>
+      <h2 style="color: white; font-size: 40px;">Pratice server config/commands</h2>
+       <span style="color: white; font-size: 18px">sv_cheats 1 // <span style="font-style: italic">Enable cheats on practice server</span></span><br>
+       <span style="color: white; font-size: 18px">sv_infinite_ammo 1 // <span style="font-style: italic">Infinite nades</span></span><br>
+       <span style="color: white; font-size: 18px">sv_grenade_trajectory 1 // <span style="font-style: italic">Grenades will leave throwing lines behind them</span></span><br>
+       <span style="color: white; font-size: 18px">sv_grenade_trajectory_time 11 // <span style="font-style: italic">Lines will be shown for 11 seconds</span></span><br>
+       <span style="color: white; font-size: 18px">sv_grenade_trajectory_thickness 1 // <span style="font-style: italic">Thicker trajectory lines</span></span><br>
+       <span style="color: white; font-size: 18px">sv_showimpacts 1 // <span style="font-style: italic">Show where bullets go</span></span><br>
+       <span style="color: white; font-size: 18px">bot_kick all  // <span style="font-style: italic">Kick all bots</span></span><br>
+       <span style="color: white; font-size: 18px">bot_stop 1  // <span style="font-style: italic">Stop bots (when added)</span></span><br>
+       <span style="color: white; font-size: 18px">ammo_grenade_limit_total 5  // <span style="font-style: italic">Have 5 grenades total</span></span><br>
+       <span style="color: white; font-size: 18px">mp_limitteams 0  // <span style="font-style: italic">Don't cap the teams</span></span><br>
+       <span style="color: white; font-size: 18px">mp_roundtime 999   // <span style="font-style: italic">Maximum roundtime set to 999 minutes.</span></span><br>
+       <span style="color: white; font-size: 18px">mp_autoteambalance 0  // <span style="font-style: italic">Don't autobalance the teams</span></span><br>
+       <span style="color: white; font-size: 18px">mp_freezetime 0   // <span style="font-style: italic"> No waiting time at the start of round</span></span><br>
+       <span style="color: white; font-size: 18px">mp_maxmoney 99999  // <span style="font-style: italic">Expands 16k money limit</span></span><br>
+       <span style="color: white; font-size: 18px">mp_startmoney 99999  // <span style="font-style: italic">You will have a lot of money</span></span><br>
+       <span style="color: white; font-size: 18px">mp_buytime 3600  // <span style="font-style: italic">Shop is open for 60 minutes</span></span><br>
+       <span style="color: white; font-size: 18px">mp_buy_anywhere 1   // <span style="font-style: italic">You can buy anywhere on the map</span></span><br>
+       <span style="color: white; font-size: 18px">ammo_grenade_limit_total 5  // <span style="font-style: italic">You can have 5 different nades in your hands</span></span><br>
+       <span style="color: white; font-size: 18px">mp_restartgame 1   // <span style="font-style: italic">Restart the game for above commands</span></span><br>
+       <span style="color: white; font-size: 18px">mp_warmup_end   // <span style="font-style: italic">In case it's still warmup, end it </span></span><br>
+       <span style="color: white; font-size: 18px">bot_place // <span style="font-style: italic">Places a bot where your crosshair is looking. Combine it with bot_stop.</span></span><br>
+       <span style="color: white; font-size: 18px">bot_crouch 1 // <span style="font-style: italic">Bots will crouch, great for trying out new boost spots</span></span><br>
+       <span style="color: white; font-size: 18px">god // <span style="font-style: italic">Toggle god mode on/off</span></span><br>
+
+      <h2 style="color: white; font-size: 40px;">Some useful binds (change "KEY" to any key you wish)</h2>
+       <span style="color: white; font-size: 18px">bind "KEY" "noclip" // <span style="font-style: italic">Toggles noclip on or off</span></span><br>
+       <span style="color: white; font-size: 18px">bind "KEY" "give weapon_smokegrenade;give weapon_flashbang;give weapon_hegrenade;give weapon_incgrenade;give weapon_molotov;give weapon_decoy" // <span style="font-style: italic">Gives you nades</span></span><br>
+       <span style="color: white; font-size: 18px">bind "KEY" "cast_ray" // <span style="font-style: italic">Casts a ray/straight line to test collisions.</span></span><br>
+       <div style="color: white; font-size: 18px; margin-bottom: 33px">
+         <span>alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind "KEY "+jumpthrow" // <span style="font-style: italic">Jumpthrow bind</span></span><br>
+       </div>
+      
+    </div>
+  </div>
+      
+</div>
+
+
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+</body>
+</html>

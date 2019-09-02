@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" style="background: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif) no-repeat center center fixed; background-size: cover">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSnades</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/JakeFanelli/CSGO-Nades/master/media/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <a id="btn-home" href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="submit.html" style="float: right">Submit your own</a>
+        <div class="dropdown">
+          <button class="dropbtn">Maps 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a id="dust2" href="dust2.html" class="icoDust2">Dust 2</a>
+            <a id="mirage" href="mirage.html" class="icoMirage">Mirage</a>
+            <a id="cache" href="cache.html" class="icoCache">Cache</a>
+            <a id="inferno" href="inferno.html" class="icoInfer">Inferno</a>
+            <a id="overpass" href="overpass.html" class="icoOver">Overpass</a>
+            <a id="train" href="train.html" class="icoTrain">Train</a>
+            <a id="nuke" href="nuke.html" class="icoNuke">Nuke</a>
+            <a id="vertigo" href="vertigo.html" class="icoVertigo">Vertigo</a>
+          </div>
+        </div> 
+      </div>
+
+    <div id="container" style="background-color: black">
+            <div>
+                    <a href="#smoke" id="smoke" onclick=videosmoke()>Smoke</a>
+                    <a href="#fl" id="flash" onclick=videoflash()>Flash</a>
+                    <a href="#moly" id="moly" onclick=videomoly()>Moly</a>
+                    <a href="#bonus" id="bonus" onclick=videobonus()>Set Piece</a>
+                    </div>
+    </div>
+
+    <div id="vid-container">
+        <img src="https://i.redd.it/qxc0wd7lfip21.png" alt="image" style="margin-top: 20px;">
+        </div>
+
+
+    <script src="index.js"></script>
+    <script src="vertigo.js"></script>
+</body>
+</html>
