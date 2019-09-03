@@ -1,224 +1,229 @@
-// dust2.addEventListener('click', () => {
-//     let dust2Content = `<div>
-//     <a href="#d2smoke" id="d2smoke" onclick='videos()'>Smoke</a>
-//     <a href="#d2fl" id="d2flash">Flash</a>
-//     <a href="#d2moly" id="d2moly">Moly</a>
-//     <a href="#d2bonus" id="d2bonus">Bonus</a>
-//     </div>
-    
-//     <div id="vid-container">
-//     </div>`
-//     pageContainer.innerHTML = dust2Content;
-//     pageContainer.style.backgroundColor = "black";
-// })
-
-// let d2bonus = document.getElementById('d2bonus');
-
 function videosmoke(){
     let divVideo = document.getElementById('vid-container');
     let videos = `
     <div id="video-panel">
+    <div id="video-description" style="width=100%">T-base to Xbox</div>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/NegligibleSpanishBlackbuck.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/FlatMelodicIbizanhound.webm" type="video/webm">
         </video>
-        <div id="video-description" style="width=100%">T-base to Xbox</div>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">Lower Tunnel to Left-mid</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/InfantileGloomyGuppy.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/GrayOddAtlanticblackgoby.webm" type="video/webm">
         </video>
-        <p id="video-description">Lower Tunnel to CT</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">T-base to A-long</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/JitteryPointlessCaecilian.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/FancyFluffyEthiopianwolf.webm" type="video/webm">
         </video>
-        <p id="video-description">Lower Tunnel to Left-mid</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">A-car to A-door</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/PolishedRepentantErne.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/PalatableEducatedArabianoryx.webm" type="video/webm">
         </video>
-        <p id="video-description">Outside Tunnel to B-Window</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">A-long to CT</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/AltruisticGeneralFritillarybutterfly.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/InconsequentialDecisiveGiraffe.webm" type="video/webm">
         </video>
-        <p id="video-description">CT-mid to Tunnel</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">A short set</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/FragrantSplendidGalapagosalbatross.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/SevereReasonableKite.webm" type="video/webm">
         </video>
-        <p id="video-description">T-base to A-long</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">Outside window to B Tunnel</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/InsecureDazzlingIrrawaddydolphin.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/ShrillFriendlyHorse.webm" type="video/webm">
         </video>
-        <p id="video-description">A-car to A-ddor</p>
     </div>
 
     <div id="video-panel">
+    <p id="video-description">X-box to CT</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/QuaintFragrantEthiopianwolf.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/BitesizedShinyGopher.webm" type="video/webm">
         </video>
-        <p id="video-description">A-short to CT</p>
-    </div>
-
-    <div id="video-panel">
-    <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/CheapSphericalBlacklab.webm" type="video/webm">
-        </video>
-        <p id="video-description">A-door to CT-cross</p>
     </div>
     `
+    divVideo.innerHTML = videos;
+}
+
+function videoflash(){
+    let divVideo = document.getElementById('vid-container');
+    let videos = `
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">A long flash from Car</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/VillainousZealousGrebe.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">A short flash</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/SillyOrdinaryDrake.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    `
+    divVideo.innerHTML = videos;
+}
+
+function videomoly(){
+    let divVideo = document.getElementById('vid-container');
+    let videos = `
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">Car moly from A long</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/SingleDeficientAlpineroadguidetigerbeetle.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">A door moly</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/SafeWebbedElk.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">B site moly from outside window</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/InsignificantAnyAndeancondor.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    <div id="video-panel">
+    <p id="video-description" style="width=100%">Mid door moly from Lower Tun</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/GrandioseScratchyGavial.webm"
+        type="video/webm">
+        </video>
+    </div>
+
+    `
+
     divVideo.innerHTML = videos;
 }
 
 function videobonus(){
     let divVideo = document.getElementById('vid-container');
     let videos = `
-    <div id="video-panel" style="display: inline-block;
-    width: 100%;
-    height: 350px;
-    margin-right: 10px;
+    <div style="display: inline-block;
+    width: auto;
+    height: auto;
     text-align: center;
     border-style: ridge;
-    margin-top: 10px;    
-    background-color: rgb(220,220,220);">
-    <div style="display: inline-block; text-align: center; margin-right: 10px;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
+    background-color: rgb(200,200,200);">
+
+    <p id="video-description" style="display: block; font-size: 20px; font-weight: bold">A short set</p>
+    
+    <div id="video-panel" style="display: inline-block; text-align: center; margin-right: 10px;
     text-align: center;
     border-style: ridge;
-    margin-top: 10px;    
+    margin-bottom: 10px;
+    margin-top: 0px;   
     background-color: rgb(220,220,220);">
+    <p id="video-description">A short set</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/NegligibleSpanishBlackbuck.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/SevereReasonableKite.webm" type="video/webm">
         </video>
-        <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
      </div>
 
-    <div style="display: inline-block;margin-right: 10px;
+    <div id="video-panel" style="display: inline-block;margin-right: 10px;
     text-align: center;
     border-style: ridge;
-    margin-top: 10px;    
+    margin-bottom: 10px;    
+    margin-top: 0px;
     background-color: rgb(220,220,220);">
+    <p id="video-description">A-long to CT</p>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/InfantileGloomyGuppy.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/InconsequentialDecisiveGiraffe.webm" type="video/webm">
         </video>
-        <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
     </div>
+    </div><br>
 
-    <div style="display: inline-block;margin-right: 10px;
+    
+    <div style="display: inline-block;
+    width: auto;
+    height: auto;
     text-align: center;
     border-style: ridge;
-    margin-top: 10px;    
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
+    background-color: rgb(200,200,200);">
+
+    <p id="video-description" style="display: block; font-size: 20px; font-weight: bold">Mid take</p>
+    
+    <div id="video-panel" style="display: inline-block; text-align: center; margin-right: 10px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 10px;
+    margin-top: 0px;   
     background-color: rgb(220,220,220);">
+    <div id="video-description" style="width=100%">T-base to Xbox</div>
     <video width="320" height="240" controls loop>
-        <source src="https://giant.gfycat.com/JitteryPointlessCaecilian.webm" type="video/webm">
+        <source src="https://giant.gfycat.com/FlatMelodicIbizanhound.webm" type="video/webm">
         </video>
-        <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
+     </div>
+    
+    <div id="video-panel" style="display: inline-block; text-align: center; margin-right: 10px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 10px;
+    margin-top: 0px;   
+    background-color: rgb(220,220,220);">
+    <p id="video-description">Lower Tunnel to left mid</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/GrayOddAtlanticblackgoby.webm" type="video/webm">
+        </video>
+     </div>
+
+    <div id="video-panel" style="display: inline-block;margin-right: 10px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 10px;    
+    margin-top: 0px;
+    background-color: rgb(220,220,220);">
+    <p id="video-description">X-box to CT</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/BitesizedShinyGopher.webm" type="video/webm">
+        </video>
     </div>
 
-        <p id="video-description" style="display: block; font-size: 20px;"><b>A short set<b/></p>
-        </div>
+    <div id="video-panel" style="display: inline-block;margin-right: 10px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 10px;    
+    margin-top: 0px;
+    background-color: rgb(220,220,220);">
+    <p id="video-description" style="width=100%">Mid door moly from Lower Tun</p>
+    <video width="320" height="240" controls loop>
+        <source src="https://giant.gfycat.com/GrandioseScratchyGavial.webm"
+        type="video/webm">
+        </video>
+    </div>
 
-        <div id="video-panel" style="display: inline-block;
-        width: 100%;
-        height: 350px;
-        margin-right: 10px;
-        text-align: center;
-        border-style: ridge;
-        margin-top: 10px;    
-        background-color: rgb(220,220,220);">
-        <div style="display: inline-block; text-align: center; margin-right: 10px;
-        text-align: center;
-        border-style: ridge;
-        margin-top: 10px;    
-        background-color: rgb(220,220,220);">
-        <video width="320" height="240" controls loop>
-            <source src="https://giant.gfycat.com/NegligibleSpanishBlackbuck.webm" type="video/webm">
-            </video>
-            <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-         </div>
-    
-        <div style="display: inline-block;margin-right: 10px;
-        text-align: center;
-        border-style: ridge;
-        margin-top: 10px;    
-        background-color: rgb(220,220,220);">
-        <video width="320" height="240" controls loop>
-            <source src="https://giant.gfycat.com/InfantileGloomyGuppy.webm" type="video/webm">
-            </video>
-            <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-        </div>
-    
-        <div style="display: inline-block;margin-right: 10px;
-        text-align: center;
-        border-style: ridge;
-        margin-top: 10px;    
-        background-color: rgb(220,220,220);">
-        <video width="320" height="240" controls loop>
-            <source src="https://giant.gfycat.com/JitteryPointlessCaecilian.webm" type="video/webm">
-            </video>
-            <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-        </div>
-    
-            <p id="video-description" style="display: block; font-size: 20px;"><b>A short set<b/></p>
-            </div>
-
-            <div id="video-panel" style="display: inline-block;
-            width: 100%;
-            height: 350px;
-            margin-right: 10px;
-            text-align: center;
-            border-style: ridge;
-            margin-top: 10px;    
-            background-color: rgb(220,220,220);">
-            <div style="display: inline-block; text-align: center; margin-right: 10px;
-            text-align: center;
-            border-style: ridge;
-            margin-top: 10px;    
-            background-color: rgb(220,220,220);">
-            <video width="320" height="240" controls loop>
-                <source src="https://giant.gfycat.com/NegligibleSpanishBlackbuck.webm" type="video/webm">
-                </video>
-                <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-             </div>
-        
-            <div style="display: inline-block;margin-right: 10px;
-            text-align: center;
-            border-style: ridge;
-            margin-top: 10px;    
-            background-color: rgb(220,220,220);">
-            <video width="320" height="240" controls loop>
-                <source src="https://giant.gfycat.com/InfantileGloomyGuppy.webm" type="video/webm">
-                </video>
-                <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-            </div>
-        
-            <div style="display: inline-block;margin-right: 10px;
-            text-align: center;
-            border-style: ridge;
-            margin-top: 10px;    
-            background-color: rgb(220,220,220);">
-            <video width="320" height="240" controls loop>
-                <source src="https://giant.gfycat.com/JitteryPointlessCaecilian.webm" type="video/webm">
-                </video>
-                <p id="video-description" style="display: block">Lower Tunnel to Left-mid</p>
-            </div>
-        
-                <p id="video-description" style="display: block; font-size: 20px;"><b>A short set<b/></p>
-                </div>
-
-
+    </div>
     `
     divVideo.innerHTML = videos;
 }
